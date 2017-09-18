@@ -7,7 +7,6 @@ Once in compute directory, open bash_profile to create an environment variable a
 * save and close
 * source ~/.bash_profile in terminal
 
-![https://www.dropbox.com/s/cm6asly7qxigl16/Screenshot%202017-09-17%2023.39.48.png?dl=0]
 
 #### Create alias
 * nano ~/.bash_profile
@@ -15,3 +14,6 @@ Once in compute directory, open bash_profile to create an environment variable a
 * save and close
 * source ~/.bash_profile in terminal
 
+![screenshot bash](https://github.com/sebscho/PUI2017_ses515_/blob/master/Screenshot%202017-09-17%2023.35.46.png)
+
+![terminal](https://github.com/sebscho/PUI2017_ses515_/blob/master/Screenshot%202017-09-17%2023.32.26.png)
