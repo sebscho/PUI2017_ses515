@@ -1,4 +1,4 @@
-# PUI2017_ses515
+# PUI2017_ses515_
 
 Once in compute directory, open bash_profile to create an environment variable and an alias
 #### Create environment variable
