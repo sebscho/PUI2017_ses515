@@ -14,8 +14,8 @@ except ImportError:
 # %pylab inline
 pl.rc('font', size=15)
 
-key = sys.argv(1)
-line = sys.argv(2)
+key = sys.argv[1]
+line = sys.argv[2]
 
 if not len(sys.argv) == 3:
     print ("Invalid number of arguments.")
@@ -34,9 +34,11 @@ bus_list = []
 for bus in range(len(allbuses)):
     name = allbuses[bus]['MonitoredVehicleJourney']['PublishedLineName']
     location = allbuses[bus]['MonitoredVehicleJourney']['VehicleLocation']
-    bus_list.append({"name": name, "location": location})
+    bus_list.append((name, location))
     
 for i in range(len(allbuses)):
-    print ("Bus {i} is at {location}".format(i=i, location=location))   
+     print ("Bus {} is at {} latitude and {} longitude".format(i, bus_list[i][1].values()[0], bus_list[i][1].values()[1]))   
+
+
                 
 
