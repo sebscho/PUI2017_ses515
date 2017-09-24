@@ -14,10 +14,8 @@ except ImportError:
 # %pylab inline
 pl.rc('font', size=15)
 
-key = sys.argv[1]
-line = sys.argv[2]
-fout = open(sys.argv[3], "w")
-
+key = sys.argv(1)
+line = sys.argv(2)
 
 if not len(sys.argv) == 3:
     print ("Invalid number of arguments.")
@@ -30,15 +28,17 @@ response = urllib.urlopen(url)
 data = response.read().decode("utf-8")
 data = json.loads(data)
 
-busloc = data['Siri']['ServiceDelivery']['VehicleMonitoringDelivery'][0]['VehicleActivity']
+
 
 next_bus = []
 for bus in range(len(busloc)):
     latlong = busloc[bus]['MonitoredVehicleJourney']['VehicleLocation']
-    status = busloc[bus]['MonitoredVehicleJourney']['MonitoredCall']['Extensions']['Distances']['PresentableDistance']
-    stop = busloc[bus]['MonitoredVehicleJourney']['MonitoredCall']['StopPointName']
-    next_bus.append((latlong, status, stop))
+    status = busloc[bus]['MonitoredVehicleJourney']['OnwardCalls']['OnwardCall']['Distances']['PresentableDistance']
+    stop = busloc[bus]['MonitoredVehicleJourney']['OnwardCalls']['StopPointName']
+    next_bus.append({"latlong": latlong, "status": status, "stop": stop})
 
-for i in range(len(busloc)):
-   fout.write("{},{},{},{}".format(bus_list[i][1].values()[0], bus_list[i][1].values()[1], stop, status))   
-            
+    
+   
+# why listing same bus multiple times
+# for i in range(len(busloc)):
+#     print ("{i} is at {location}, {status}, {stop}".format(i=i, location=latlong, status=status, stop=stop))   
