@@ -19,7 +19,7 @@ line = sys.argv[2]
 fout = open(sys.argv[3], "w")
 
 
-if not len(sys.argv) == 3:
+if not len(sys.argv) == 4:
     print ("Invalid number of arguments.")
     sys.exit()
 
