@@ -11,7 +11,7 @@ try:
 except ImportError:
     import urllib.request as urllib
 
-%pylab inline
+# %pylab inline
 pl.rc('font', size=15)
 
 key = sys.argv[1]
