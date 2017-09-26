@@ -40,5 +40,8 @@ for bus in range(len(busloc)):
     next_bus.append((latlong, status, stop))
 
 for i in range(len(busloc)):
-    newfile.write("{},{},{},{}".format(next_bus[i][1].values()[0], next_bus[i][1].values()[1], stop, status))   
+#  print (next_bus[i][0])
+#   print (next_bus[i][1].values()[1])
+#  print ("======") 
+    newfile.write("{},{},{},{}\n".format(next_bus[i][0]['Latitude'],next_bus[i][0]['Longitude'],next_bus[i][1],next_bus[i][2]))   
             
