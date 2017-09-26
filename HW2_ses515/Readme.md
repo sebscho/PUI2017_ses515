@@ -5,7 +5,7 @@ Find the python notebook for assignment 3 saved as "HW2-3_ses515.ipynb"
 
 ## Collaboration
 
-I learned something from everyone I spoke to this week, from Rebecca who caught that I was working in the wrong kernel, to Prince, who helped me with my environmental variables. I worked primarily with Prince and Dana, who I worked with the parse the json file and create the scripts. Dana and I worked together on the third assignment, to use pandas to read from the csv. I was largely along for the ride this week.
+I was largely along for the ride this week, and learned something from everyone I spoke to this week: from Rebecca who caught that I was working in the wrong kernel, to Prince and Professor Bianco, who helped me with my environmental variables, to Christian who helped me format my csv output. I was initially in a slack group with: Charlie, Jack, Prince, and Dana. Over the weekend, I worked with Prince and Dana, to finalize our first two scripts. Dana and I worked together on the third assignment, to use pandas to read from the csv. 
 
 ## Notes
 
