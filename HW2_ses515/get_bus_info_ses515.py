@@ -16,7 +16,7 @@ pl.rc('font', size=15)
 
 key = sys.argv[1]
 line = sys.argv[2]
-fout = open(sys.argv[3], "w")
+newfile = open(sys.argv[3], "w")
 
 
 if not len(sys.argv) == 4:
@@ -24,7 +24,7 @@ if not len(sys.argv) == 4:
     sys.exit()
 
 url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=" + key + \
-   "a&VehicleMonitoringDetailLevel=calls&LineRef=" + line
+   "&VehicleMonitoringDetailLevel=calls&LineRef=" + line
 
 response = urllib.urlopen(url)
 data = response.read().decode("utf-8")
@@ -40,5 +40,5 @@ for bus in range(len(busloc)):
     next_bus.append((latlong, status, stop))
 
 for i in range(len(busloc)):
-   fout.write("{},{},{},{}".format(bus_list[i][1].values()[0], bus_list[i][1].values()[1], stop, status))   
+    newfile.write("{},{},{},{}".format(next_bus[i][1].values()[0], next_bus[i][1].values()[1], stop, status))   
             

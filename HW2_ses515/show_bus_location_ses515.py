@@ -22,7 +22,7 @@ if not len(sys.argv) == 3:
     sys.exit()
 
 url = "http://bustime.mta.info/api/siri/vehicle-monitoring.json?key=" + key + \
-   "a&VehicleMonitoringDetailLevel=calls&LineRef=" + line
+   "&VehicleMonitoringDetailLevel=calls&LineRef=" + line
 
 response = urllib.urlopen(url)
 data = response.read().decode("utf-8")
@@ -35,6 +35,7 @@ for bus in range(len(allbuses)):
     name = allbuses[bus]['MonitoredVehicleJourney']['PublishedLineName']
     location = allbuses[bus]['MonitoredVehicleJourney']['VehicleLocation']
     bus_list.append((name, location))
+
     
 for i in range(len(allbuses)):
      print ("Bus {} is at {} latitude and {} longitude".format(i, bus_list[i][1].values()[0], bus_list[i][1].values()[1]))   
