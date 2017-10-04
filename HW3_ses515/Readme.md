@@ -1,7 +1,7 @@
 
 # HW3 Readme
 
-# Collaborator
+# Collaborators
 
 I worked with Julian and Juan on the first assignment. Juan and I worked to understand what was needed in the formula for each distribution while Julian worked on the for loop which could generate all of the distributions. From there, we generated the plots and distributions together. I learned a ton at office hours and from Juan and Julian who lead the way on the code. 
 
