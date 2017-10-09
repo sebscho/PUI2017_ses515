@@ -12,4 +12,4 @@ There's a small typo in the "F=" lines for the hypotheses where 'gender' should 
 
 # Significance Test:
 
-This will be testing the significance of difference between two groups, with numeric, non-parametric data and one treatment variable.  I would reccomend using a 2 tailed z-test for unpaired data.  Since the data is non-parametric first you would want to use an F-test to make sure the variances of male and female values are not drastically different.
+This will be testing the significance of difference between two groups, with numeric, non-parametric data and one treatment variable.  I would reccomend using a 2 tailed z-test for unpaired data.  Since the data is non-parametric first you would want to use an F-test to make sure the variances of male and female values are not drastically different. I also considered the Mann–Whitney U test, but decided against it because the values of time are not always ordinal (i.e. two values could be equal).
