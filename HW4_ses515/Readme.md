@@ -3,26 +3,31 @@
 ## Homework Scope
 
 **Assignment 1**
-* worked on X repo
+* commented on cra354's citi bike experimental set up, created pull request with suggested test
 
 **Assignment 2**
-* worked on X repo
+* searched plos.org and read abstracts to identify specified tests
 
 **Assignment 3: Reproducing research**
-* worked on X repo
+* used skeleton notebook and wikipedia documentation to reporduce experiement and expand upon findings
 
 **Assignment 4: CitiBike**
-* worked on X repo
-
+* Part one
+  * created new colum for day/night rider using datetime
+  * said "night" was 7pm - 7am
+  * ran test formulas
+* Part two
+  * _struggled_ to use geolocator
+  
 
 ## Collaborators
 
 **Assignment 1**
-* On my own, reviewing XXXXXX's HW3_CitiBike analysis
+* On my own, reviewing cra354's HW3_CitiBike analysis
 * Find pull request here: XXXXXXXXXX
 
 ##### Assignment 2
-* Worked with X to come up with statistical test for table (below)
+* Worked alone to find studies using the statistical tests for table (below)
 
 **Assignment 3: Reproducing research**
 * Worked with X and X 
@@ -30,8 +35,8 @@
 * More
 
 **Assignment 4: CitiBike**
-* Worked with X and X 
-* More 
+* Worked primarily with Julian and Juan on part one of A4  
+* Collaborative effort to associate lat/long with borough for A4 part two 
 * More
 
 
