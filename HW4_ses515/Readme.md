@@ -40,7 +40,7 @@
 * More
 
 
-# Assignment 2: Literature choices of statistical tests
+## Assignment 2: Literature choices of statistical tests
 
 | **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var| Question to be answered | _H0_ | alpha | link to paper | 
 |:----------:|:----------|:------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
