@@ -4,6 +4,7 @@
 
 **Assignment 1**
 * commented on cra354's citi bike experimental set up, created pull request with suggested test
+* Find [pull request here](https://github.com/colinandrus/PUI2017_cra354/blob/master/HW3_cra354/HW4_A1_Review_Proposal.md)
 
 **Assignment 2**
 * searched plos.org and read abstracts to identify specified tests
@@ -24,20 +25,18 @@
 
 **Assignment 1**
 * On my own, reviewing cra354's HW3_CitiBike analysis
-* Find pull request here: XXXXXXXXXX
+* Find [pull request here](https://github.com/colinandrus/PUI2017_cra354/blob/master/HW3_cra354/HW4_A1_Review_Proposal.md)
 
 ##### Assignment 2
 * Worked alone to find studies using the statistical tests for table (below)
 
 **Assignment 3: Reproducing research**
-* Worked with X and X 
-* More 
-* More
+* Worked with Matt, Juan, and Julian
+* We used the evalChisq function and reran tests for new hypothesis
 
 **Assignment 4: CitiBike**
 * Worked primarily with Julian and Juan on part one of A4  
 * Collaborative effort to associate lat/long with borough for A4 part two 
-* More
 
 
 ## Assignment 2: Literature choices of statistical tests
