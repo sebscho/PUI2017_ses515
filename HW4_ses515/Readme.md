@@ -36,7 +36,10 @@
 
 **Assignment 4: CitiBike**
 * Worked primarily with Julian and Juan on part one of A4  
-* Collaborative effort to associate lat/long with borough for A4 part two 
+* Worked with Matt and Prince on part two of A4
+* Considerations:
+  * I couldn't get geolocator to work, so we made a hacky solution: we made an imperfect box around manhattan, saying that anything within those bounds is Manhattan, and out of it is Brooklyn. This made it so several stations in Manhattan were actually assigned to Brooklyn.
+  * We also noticed that some people lied about their ages! If we were digging in further, I'd want to filter out those older than ~70
 
 
 ## Assignment 2: Literature choices of statistical tests
