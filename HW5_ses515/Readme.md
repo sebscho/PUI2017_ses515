@@ -1,6 +1,6 @@
 # Readme HW5_ses515
 
-#Scope
+# Scope
 **A1 Z Test**
 * Create a random poisson distribution
 * Plot the z scores 
