@@ -51,4 +51,4 @@ Multiple Regression	| rate of death | continuous | Body Shape Index, smoking, di
 Logistic Regression	| Hand size | categorical | demographic features | dichitomous | 0 | 	Is there a relationship between measurements of the human hand and a range of demographic features | There is no relationship between human hand measurements and the subjects' demo features | 0.05 | [Comparing Machine Learning Classifiers and Linear/Logistic Regression to Explore the Relationship between Hand Dimensions and Demographic Characteristics](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0165521) |
   |||||||||
   
-
+# FBB good
