@@ -1,8 +1,27 @@
 
 # HW3 Readme
 
-## Collaborators
+Exploratory analysis using citibike data: finding citibike trip duration by gender (July 2016)
 
-I worked with Julian and Juan on the first assignment. Juan and I worked to understand what was needed in the formula for each distribution while Julian worked on the for loop which could generate all of the distributions. From there, we generated the plots and distributions together, with Juan and Julian leading the way on the histogram.
+## Question: 
+Is the average trip time for citibike affected by the gender of the person?
 
-The three of us also developed the question for the citibike section, although we worked independently on creating our graphs. I struggled to read in the data at office hours, but ended up reading in through gws. The lab was largely done in class, but Yuwen showed me how to write the hypothesis equations using markdown. 
+## Null hypothesis:
+
+Using the 2017 July Citibike dataset, the average trip time taken by female is the same as the time taken by men.
+
+M = average trip time for male riders in July 2017 <br />
+F = average trip time for gender riders in July 2017
+
+$H_0$: F = M
+
+
+## Alternative hypothesis
+The average triptime of a citibike trip during July 2017 is significantly (at a 95% confidence level) different depending on the user's gender(two tail test).
+
+M = average trip time for male riders in July 2017 <br />
+F = average trip time for gender riders in July 2017
+
+$H_1$: $F \neq M$
+
+
