@@ -7,7 +7,7 @@ Plotting random distirbutions' means (normal, poisson, chi-squared, binomial, ex
 randint scatter plots and histograms.
 ___
 
-## HW3_2
+## HW3_2 - citibike data exploration
 Exploratory analysis using citibike data: finding citibike trip duration by gender (July 2016)
 
 ### Question: 
