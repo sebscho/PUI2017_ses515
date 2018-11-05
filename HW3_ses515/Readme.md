@@ -1,9 +1,10 @@
 
 # HW3 Readme
 
-## Central Limit Therom Proof
-Plotting random distirbutions' means to prove the Central Limit Therom - as the sample size gets larger, the variation in the mean gets smaller, getting closer to the population's true mean.
+## Central Limit Theorem Proof
+Plotting random distirbutions' means (normal, poisson, chi-squared, binomial, exponential) to prove the Central Limit Theorem - as the sample size gets larger, the variation in the mean gets smaller, getting closer to the population's true mean.
 
+randint scatter plots and histograms.
 ___
 
 ## HW3_2
@@ -30,3 +31,7 @@ F = average trip time for gender riders in July 2017
 $H_1$: $F \neq M$
 
 
+___
+
+## Lab 
+Z test example, definition
