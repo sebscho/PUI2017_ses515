@@ -15,14 +15,6 @@ Extra credit
 * parse data with datatime 
 * plot y variable dependant upon time
 
-
-## Collaboration
-
-I was largely along for the ride this week, and learned something from everyone I spoke to this week: from Rebecca who caught that I was working in the wrong kernel, to Prince and Professor Bianco, who helped me with my environmental variables, to Christian who helped me format my csv output. I was initially in a slack group with: Charlie, Jack, Prince, and Dana, where we determined how to uses argr(sys). Over the weekend, I worked with Prince and Dana, to finalize our first two scripts. Dana and I worked together on the third assignment, to use pandas to read from the csv.
-
-Primary collaborators: Dana, Prince - troubleshooting first two scripts while I couldn't access Jupyter
-
-
 ## Notes
 
 For most of the weekend I was unable to access Jupytr hub from compute. Instead, I used anaconda to work from my local machine, pushed to github, and pulled down on compute from there. The inconsistencies with the data facility were particularly trying this week. 
