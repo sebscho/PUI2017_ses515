@@ -2,4 +2,4 @@
 
 Python exercises from NYU Urban Informatics course, 2017
 
-Data science + urban design
+http://cusp.nyu.edu/masters-degree/
