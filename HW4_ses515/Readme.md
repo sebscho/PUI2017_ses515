@@ -10,39 +10,19 @@
 * searched plos.org and read abstracts to identify specified tests
 
 **Assignment 3: Reproducing research**
-* used skeleton notebook and wikipedia documentation to reporduce experiement and expand upon findings
+* used skeleton notebook and wiki documentation to reporduce experiement and expand upon findings
 
-**Assignment 4: CitiBike**
+**Assignment 4: CitiBike data exploration**
 * Part one
   * created new colum for day/night rider using datetime
   * said "night" was 7pm - 7am
-  * ran test formulas
-* Part two
-  * _struggled_ to use geolocator
-  * Considerations:
-  * I couldn't get geolocator to work, so we made a hacky solution: we made an imperfect box around manhattan, saying that anything within those bounds is Manhattan, and out of it is Brooklyn. This made it so several stations in Manhattan were actually assigned to Brooklyn.
+  * used KS test, Pearsons, and Spearmans tests
+* Part two - comparing Manhattan to Brooklyn riders using geolocator*
+  * we made an imperfect box around manhattan, saying that anything within those bounds is manhattan, and out of it is Brooklyn. This made it so several stations in Manhattan were actually assigned to Brooklyn.
   * We also noticed that some people lied about their ages! If we were digging in further, I'd want to filter out those older than ~70
+  
 
-
-## Collaborators
-
-**Assignment 1**
-* On my own, reviewing cra354's HW3_CitiBike analysis
-* Find [pull request here](https://github.com/colinandrus/PUI2017_cra354/blob/master/HW3_cra354/HW4_A1_Review_Proposal.md)
-
-##### Assignment 2
-* Worked alone to find studies using the statistical tests for table (below)
-
-**Assignment 3: Reproducing research**
-* Worked with Matt, Juan, and Julian
-* We used the evalChisq function and reran tests for new hypothesis
-
-**Assignment 4: CitiBike**
-* Worked primarily with Julian and Juan on part one of A4  
-* Worked with Matt and Prince on part two of A4
-
-
-## Assignment 2: Literature choices of statistical tests
+## Assignment 2: Literature choices of statistical tests - (making us do Markdown gymnastics)
 
 | **Statistical Analyses	|  IV(s)  |  IV type(s) |  DV(s)  |  DV type(s)  |  Control Var| Question to be answered | _H0_ | alpha | link to paper | 
 |:----------:|:----------|:------------|:-------------|:------------|:------------- |:------------------|:----:|:-------:|:-------|
