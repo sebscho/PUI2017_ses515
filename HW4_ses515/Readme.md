@@ -1,7 +1,5 @@
 # Readme
 
-## Homework Scope
-
 **Assignment 1**
 * commented on cra354's citi bike experimental set up, created pull request with suggested test
 * Find [pull request here](https://github.com/colinandrus/PUI2017_cra354/blob/master/HW3_cra354/HW4_A1_Review_Proposal.md)
