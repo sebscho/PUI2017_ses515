@@ -10,6 +10,8 @@
 * Model
  - Mass shooting as a function of civilian firearms with and w/o USA (see below)
 
+![output](mass_shootings_function.png)
+
 **A1 Z Test**
 * Create a random poisson distribution
 * Plot the z scores 
