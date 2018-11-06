@@ -8,7 +8,6 @@
   - Plot mass shooting vs gdp in absolute numbers, and per person
   - Find the average number of civilian fire arms per person + the average number of homicide by firearm per person
 * Model
- - Mass shooting as a function of civilian firearms with and w/o USA (see below)
 
 ![output](mass_shootings_function.png)
 
