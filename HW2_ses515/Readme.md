@@ -15,8 +15,3 @@ Extra credit
 * parse data with datatime 
 * plot y variable dependant upon time
 
-## Notes
-
-For most of the weekend I was unable to access Jupytr hub from compute. Instead, I used anaconda to work from my local machine, pushed to github, and pulled down on compute from there. The inconsistencies with the data facility were particularly trying this week. 
-
-When trying to set my default text editor, I messed up my bash_profile. I spent much of my time trying to reset environmental variables and alises before I could move forward. Lesson learned.
